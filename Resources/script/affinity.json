@@ -18,8 +18,44 @@
           },{
           "name": "There're around 500 mechanical engineering students in total, who are the recruiting target of ASME.",
           "source": "RC2-31"
+          },{
+          "name": "RC2 does want more master and phd students to get involved to provide more professional insights, but hasn't been focused on it yet.",
+          "source": "RC2-15"
+          },{
+          "name": "Woman at the table told her: everyone gets into the university orchestra, but we really need more (specific) instrument players.",
+          "source": "FR1-10"
+          }],
+        "name": "I rely on a formal selection process to maintain the skills and culture of my club.",
+        "children": [{
+          "name": "ISU has a self-selection process. Those who commit to an interview process get in.",
+          "source": "RC1-33"
+          },{
+          "name": "She thought the acapella groups were competitive so she did 5 auditions.",
+          "source": "FR1-65"
+          },{
+          "name": "Membership includes an initial interview process: They schedule a 15 minute interview.",
+          "source": "RC1-9"
+          },{
+          "name": "Interview process is a hurdle that keeps people from joining.",
+          "source": "RC1-11"
+          },{
+          "name": "She doesn't people to just join for partying; she wants quality members.",
+          "source": "RC1-10"
+          },{
+          "name": "Questions she asks during interview: why are you attracted to ISU? What do you want to get out of it?",
+          "source": "RC1-30"
+          },{
+          "name": "Anyone that goes to the interview gets in. She believes that this helps a lot with the internal club culture.",
+          "source": "RC1-13"
+          },{
+          "name": "She got into a couple of dance numbers for the Dancer's symposium - it was exciting for her when she heard she got in.",
+          "source": "FR1-81"
           }]
         }]
-      }]
+      }],
+      "name": "It's hard for me to predict membership numbers.",
+      "children": [{
+        "name": "I need more people "
+        }]
     }]
 }
