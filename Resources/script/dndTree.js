@@ -27,7 +27,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
 // Get JSON data
-treeJSON = d3.json("https://raw.githubusercontent.com/shenluhoo/JSON_Test/master/flare.json", function(error, treeData) {
+treeJSON = d3.json("https://raw.githubusercontent.com/shenluhoo/PUI_Final_Project/master/Resources/script/affinity.json", function(error, treeData) {
     // Calculate total nodes, max label length
     var totalNodes = 0;
     var maxLabelLength = 0;
