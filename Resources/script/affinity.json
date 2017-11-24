@@ -1,61 +1,259 @@
 {
-  "name": "Student Activities",
-  "children": [{
-    "name": "Recruiting Expectations",
+    "name": "Student Activities",
     "children": [{
-      "name": "I have specific criteria new members need to have to join my club.",
-      "children": [{
-        "name": "I believe a specific demographic can fulfill my club's needs.",
+        "name": "Recruiting Expectations",
         "children": [{
-          "name": "PB1 hope younger members, especially undergrates can join to keep the club alive.",
-          "source": "RC2-12"
-          },{
-          "name": "She doesn't publicize ISU in CMU Facebook freshman-only groups.",
-          "source": "RC1-43"
-          },{
-          "name": "The current recruitment effort has been mainly focused on undergraduates.",
-          "source": "RC2-13"
-          },{
-          "name": "There're around 500 mechanical engineering students in total, who are the recruiting target of ASME.",
-          "source": "RC2-31"
-          },{
-          "name": "RC2 does want more master and phd students to get involved to provide more professional insights, but hasn't been focused on it yet.",
-          "source": "RC2-15"
-          },{
-          "name": "Woman at the table told her: everyone gets into the university orchestra, but we really need more (specific) instrument players.",
-          "source": "FR1-10"
-          }],
-        "name": "I rely on a formal selection process to maintain the skills and culture of my club.",
-        "children": [{
-          "name": "ISU has a self-selection process. Those who commit to an interview process get in.",
-          "source": "RC1-33"
-          },{
-          "name": "She thought the acapella groups were competitive so she did 5 auditions.",
-          "source": "FR1-65"
-          },{
-          "name": "Membership includes an initial interview process: They schedule a 15 minute interview.",
-          "source": "RC1-9"
-          },{
-          "name": "Interview process is a hurdle that keeps people from joining.",
-          "source": "RC1-11"
-          },{
-          "name": "She doesn't people to just join for partying; she wants quality members.",
-          "source": "RC1-10"
-          },{
-          "name": "Questions she asks during interview: why are you attracted to ISU? What do you want to get out of it?",
-          "source": "RC1-30"
-          },{
-          "name": "Anyone that goes to the interview gets in. She believes that this helps a lot with the internal club culture.",
-          "source": "RC1-13"
-          },{
-          "name": "She got into a couple of dance numbers for the Dancer's symposium - it was exciting for her when she heard she got in.",
-          "source": "FR1-81"
-          }]
-        }]
-      }],
-      "name": "It's hard for me to predict membership numbers.",
-      "children": [{
-        "name": "I need more people "
+            "name": "I have specific creteria new members need to have to join my club.",
+            "children": [{
+                "name": "I believe a specific demographic can fulfill my club's needs.",
+                "children": [{
+                    "name": "PB1 hope younger members, especially undergrates can join to keep the club alive.",
+                    "source": "RC2-12"
+                    },{
+                    "name": "She doesn't publicize ISU in CMU Facebook freshman-only groups.",
+                    "source": "RC1-43"
+                    },{
+                    "name": "The current recruitment effort has been mainly focused on undergraduates.",
+                    "source": "RC2-13"
+                    },{
+                    "name": "There're around 500 mechanical engineering students in total, who are the recruiting target of ASME.",
+                    "source": "RC2-31"
+                    },{
+                    "name": "RC2 does want more master and phd students to get involved to provide more professional insights, but hasn't been focused on it yet.",
+                    "source": "RC2-15"
+                    },{
+                    "name": "Woman at the table told her: everyone gets into the university orchestra, but we really need more (specific) instrument players.",
+                    "source": "FR1-10"
+                    }]
+                },{
+                "name": "I rely on a formal selection process to maintain the skills and culture of my club.",
+                "children": [{
+                    "name": "ISU has a self-selection process. Those who commit to an interview process get in.",
+                    "source": "RC1-33"
+                    },{
+                    "name": "She thought the acapella groups were competitive so she did 5 auditions.",
+                    "source": "FR1-65"
+                    },{
+                    "name": "Membership includes an initial interview process: They schedule a 15 minute interview.",
+                    "source": "RC1-9"
+                    },{
+                    "name": "Interview process is a hurdle that keeps people from joining.",
+                    "source": "RC1-11"
+                    },{
+                    "name": "She doesn't people to just join for partying; she wants quality members.",
+                    "source": "RC1-10"
+                    },{
+                    "name": "Questions she asks during interview: why are you attracted to ISU? What do you want to get out of it?",
+                    "source": "RC1-30"
+                    },{
+                    "name": "Anyone that goes to the interview gets in. She believes that this helps a lot with the internal club culture.",
+                    "source": "RC1-13"
+                    },{
+                    "name": "She got into a couple of dance numbers for the Dancer's symposium - it was exciting for her when she heard she got in.",
+                    "source": "FR1-81"
+                    }]
+                }]
+            },{
+            "name": "It's hard for me to predict membership numbers.",
+            "children": [{
+                "name": "I need more people to join my activity.",
+                "children": [{
+                    "name": "Sports is the hardest commit, there are less people willing to write articles for it.",
+                    "source": "PB1-29"
+                    },{
+                    "name": "RC2's goal is to have 20-30 more people in the club, which adds up to 80 total.",
+                    "source": "RC2-35"
+                    },{
+                    "name": "Ideally it would be good to have 5 writers and 5 photographers for each section each week.",
+                    "source": "PB1-31"
+                    },{
+                    "name": "Before recruiting this year, they only had 2 people writing 4-5 article per week for the sports section.",
+                    "source": "PB1-30"
+                    },{
+                    "name": "Scottie labs was trying to get more people to join because they had more projects than people.",
+                    "source": "RS1-25"
+                    },{
+                    "name": "61 people is a very exciting amount of people for the first meeting.",
+                    "source": "PB1-41"
+                    },{
+                    "name": "ASME is focusing on membership numbers first.",
+                    "source": "RC2-19"
+                    },{
+                    "name": "BD: There are problems with the supply of dedicated members.",
+                    "source": "RC1-60"
+                    },{
+                    "name": "C-sharp woman pitched UA1 on the club: 'no experience? I didn't have any either, it's totally fine'",
+                    "source": "FR1-35"
+                    }]
+                },{
+                "name": "I want to limit the number of people joining my activity.",
+                "children": [{
+                    "name": "Despite getting 53 signups at the activity fair, she only wants 20 new members.",
+                    "source": "RC1-8"
+                    },{
+                    "name": "ISU wants around 20 new members total for this semester.",
+                    "source": "RC1-36"
+                    },{
+                    "name": "Limit the number of people coming to event helps ASME to stay more organized.",
+                    "source": "RC2-34"
+                    },{
+                    "name": "ISU does not have the resources to take on 53 new members.",
+                    "source": "RC1-31"
+                    },{
+                    "name": "BD: Club doesn't have enough manpower to process all the potential interviews that may happen.",
+                    "source": "RC1-63"
+                    },{
+                    "name": "BD: She hopes not all 53 signups will schedule an interview, since they don't have time to do that many.",
+                    "source": "RC1-18"
+                    },{
+                    "name": "BD: ISU can't accurately predict demand; there is a yield rate issue as members drop off during the year.",
+                    "source": "RC1-61"
+                    },{
+                    "name": "Photography had a separate meeting space for a huge crowd.",
+                    "source": "PB1-50"
+                    }]
+                },{
+                "name": "I expect people to leave my club as the year goes on.",
+                "children": [{
+                    "name": "BD: Spring also has an activities fair, but turnout is much lower than fall.",
+                    "source": "PB1-58"
+                    },{
+                    "name": "PB1 could not determine whether this group would be worthwhile, because it's unclear how many people will stay and what their contribution is.",
+                    "source": "PB1-57"
+                    },{
+                    "name": "Usually we start out the semester with a pretty good amount but people either become more invested or fall out gradually.",
+                    "source": "PB1-14"
+                    },{
+                    "name": "From those who sign up at the activities fair, about 25% of them sign up for the interview.",
+                    "source": "RC1-19"
+                    },{
+                    "name": "BD: ISU loses members through the year.",
+                    "source": "RC1-35"
+                    },{
+                    "name": "BD: Recruiting doesn't ever end. They can't force anyone to come to meetings, so recruiting never really stops.",
+                    "source": "RC1-27"
+                    }]
+                }]
+            }]
+        },{
+        "name": "Recruiting Channels",
+        "children":[{
+            "name": "I rely on a wide range of channels to recruit.",
+            "children": [{
+                "name": "I rely on the activities fair more than other channels.",
+                "children": [{
+                    "name": "She believes that the activities fair is much more efficient than The Bridge.",
+                    "source": "RC1-51"
+                    },{
+                    "name": "The activities fair is where they mainly recruit.",
+                    "source": "PB1-8"
+                    },{
+                    "name": "ASME did individual tabling other than activities fair, but was not effective.",
+                    "source": "RC2-26"
+                    },{
+                    "name": "They have a website for posting news and an intranet for the club but they don't post recruiting information anywhere else besides activity fair.",
+                    "source": "PB1-9"
+                    },{
+                    "name": "Freshman year: He heard about the clubs from the activities fair, and went from there.",
+                    "source": "RS1-31"
+                    },{
+                    "name": "Also: acapella groups went to her dorm before the activity fair and mentioned to come and stop by at the activities fair.",
+                    "source": "FR1-6"
+                    }]
+                },{
+                "name": "We explore both physical and digital channels to recruit.",
+                "children": [{
+                    "name": "ASME tried selling donuts on campus as fundraising and recruiting, but it was not effective.",
+                    "source": "RC2-29"
+                    }]
+                }]
+            },{
+            "name": "The channels we use are based on the people we are looking for.",
+            "children": [{
+                "name": "Facebook makes it easy for us to share club info to relevant people."
+                },{
+                "name": "We use CMU intistutions to recruit becasue we think they match our demographic."
+                }]
+            }]
+        },{
+        "name": "Resource Constraints",
+        "children":[{
+            "name": "I need to assign someone to manage recruiting.",
+            "children": [{
+                "name": "I know who is responsible for recruiting in my club."
+                }]
+            },{
+            "name": "I have to make tradeoffs balancing recruiting and other priotities in terms of resources.",
+            "children": [{
+                "name": "I feel budget restricts my recruiting choices."
+                },{
+                "name": "I have funding stakeholders whose needs I have to meet."
+                }]
+            }]
+        },{
+        "name": "Research Methods",
+        "children":[{
+            "name": "I get meaningful info from resources that clubs invest time in.",
+            "children": [{
+                "name": "I don't rely on the Bridge for recruiting new members."
+                },{
+                "name": "I struggled getting meaningful info from the Bridge."
+                },{
+                "name": "Print media drives me to investigate clubs."
+                }]
+            },{
+            "name": "I approach researching clubs with my own methods.",
+            "children": [{
+                "name": "I need a personal process to decide what clubs to join."
+                }]
+            },{
+            "name": "Other people influence my decisions on what clubs to join.",
+            "children": [{
+                "name": "My opinions on clubs are shaped by my friends and family."
+                },{
+                "name": "If I can talk to current members, I'm more likely to express interest in an activity."
+                },{
+                "name": "I enjoy looking for activities with my friends."
+                },{
+                "name": "I learn about activities through word of mouth."
+                }]
+            }]
+        },{
+        "name": "Joining",
+        "children":[{
+            "name": "I have a low barrier to expressing interest in a club.",
+            "children": [{
+                "name": "I express my interest in an activity by submitting my contact info."
+                },{
+                "name": "Even if I submit interest in an club, I may not follow through."
+                },{
+                "name": "My attendance at a kickoff meeting does not mean I've committed."
+                }]
+            },{
+            "name": "I have a high barrier to commiting to a club.",
+            "children": [{
+                "name": "If I'm an active contributor in a meeting I'm more likely to commit."
+                },{
+                "name": "I have limited time and will prioritize the clubs I'm interested in."
+                }]
+            },{
+            "name": "I have a low barrier to leaving a club.",
+            "children": [{
+                "name": "If a club doesn't meet my expectations, I leave."
+                }]
+            },{
+            "name": "I have a specific criteria for jioning clubs.",
+            "children": [{
+                "name": "I like getting transferrable skills from clubs."
+                },{
+                "name": "I want to do club activities to diversfy."
+                },{
+                "name": "My goal with my activity is to be part of a social community."
+                },{
+                "name": "I join clubs I have previous experience in."
+                },{
+                "name": "I join activities because my friends are in them."
+                }]
         }]
     }]
 }
