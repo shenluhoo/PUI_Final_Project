@@ -1,8 +1,4 @@
 {
-    "name": "flare",
-    "children": [{
-        "name": "analytics",
-{
   "name": "Student Activities",
   "children": [{
     "name": "Recruiting Expectations",
