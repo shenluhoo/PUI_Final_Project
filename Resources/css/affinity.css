@@ -3,11 +3,11 @@
   }
 
   .overlay{
-      background-color:#EEE;
+      background-color:#4492A0;
   }
 
   .node circle {
-    fill: #fff;
+    fill: #CDE0E0;
     stroke: steelblue;
     stroke-width: 1.5px;
   }
@@ -17,16 +17,14 @@
     font-family:sans-serif;
   }
 
-  .link {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: 1.5px;
+  .node .nodeText{
+    color: #CDE0E0;
   }
 
-  .templink {
+  .link {
     fill: none;
-    stroke: red;
-    stroke-width: 3px;
+    stroke: #CDE0E0;
+    stroke-width: 1.5px;
   }
 
   .ghostCircle.show{

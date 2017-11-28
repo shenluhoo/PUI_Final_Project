@@ -1,3 +1,6 @@
+/* The following code is modified based on Rob Schmuecker's dndTree.js.
+/* See the orignal copyright statement below.
+
 /*Copyright (c) 2013-2016, Rob Schmuecker
 All rights reserved.
 
@@ -130,7 +133,7 @@ treeJSON = d3.json("https://raw.githubusercontent.com/shenluhoo/PUI_Final_Projec
 
     // define the baseSvg, attaching a class for styling and the zoomListener
     var baseSvg = d3.select("#tree-container").append("svg")
-        .attr("width", viewerWidth/8*5)
+        .attr("width", viewerWidth)
         .attr("height", viewerHeight)
         .attr("class", "overlay")
         .call(zoomListener);
@@ -386,7 +389,8 @@ treeJSON = d3.json("https://raw.githubusercontent.com/shenluhoo/PUI_Final_Projec
             .text(function(d) {
                 return d.name;
             })
-            .style("fill-opacity", 0);
+            .style("fill-opacity", 0)
+            .style("fill", "#CDE0E0");
 
         // phantom node to give us mouseover in a radius around it
         nodeEnter.append("circle")

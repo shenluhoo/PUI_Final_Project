@@ -1,0 +1,29 @@
+#scr-1,
+#scr-2,
+#scr-3,
+#scr-4,
+#scr-5,
+#scr-6{
+  height: 100vh;
+  width: 100vw;
+}
+.yellow-background{
+    background-color: #EACE57;
+}
+.light-blue-background{
+  background-color: #CDE0E0;
+}
+.dark-blue-background{
+  background-color: #4492A0;
+}
+#persona-confused {
+  display: block;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  height: 50vh;
+  width: auto;
+}
+
+#scr-2 .zoom {
+  width: 100%
+}
