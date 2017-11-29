@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <title>UCRE - Student Activities Research</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!--scroll reveal library -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <!-- D3 -->
@@ -44,7 +42,7 @@
     <div id="scr-2" class="white-background">
       <img src="resources/images/sequence.jpg" class="zoom" data-magnify-src="resources/images/sequence-large.jpg">
       <a href="#scr-3">
-        <h5 class="statement">▽</h5>
+        <h5 class="statement scroll-down">▽</h5>
       </a>
     </div>
     </script>
@@ -65,16 +63,24 @@
       </div>
     </div>
     <div id="scr-5" class="light-blue-background">
-      <p class="existing-hurdles">"I don't know when and how to use the <span class="bold-text">Bridge</span>, and clubs don't update it much."</p>
-      <p class="existing-hurdles">"I spend <span class="bold-text">a lot of time</span> researching clubs, but it turns out they <span class="bold-text">don't fit</span> my schedule anyways."</p>
-      <p class="existing-hurdles">"I'm new to campus, and it's a <span class="bold-text">hurdle</span> for me to find <span class="bold-text">where</span> meetings take place."</p>
-      <p class="existing-hurdles">"I went to a club event, but it turned out <span class="bold-text">really differently</span> from what I anticipated."</p>
-      <img id="existing-hurdles-icon" src="resources/images/existing-hurdles.png">
+      <div class="carousel-title">
+        <img class="title-children" id="existing-hurdles" src="resources/images/existing-hurdles.png">
+        <h3 class="title-children emphasize">Existing Hurdles</h3>
+      </div>
+      <div class="container">
+        <p class="existing-hurdles">"I don't know when and how to use the <span class="emphasize">Bridge</span>, and clubs don't update it much."</p>
+        <p class="existing-hurdles">"I spend <span class="emphasize">a lot of time</span> researching clubs, but it turns out they <span class="emphasize">don't fit</span> my schedule anyways."</p>
+        <p class="existing-hurdles">"I'm new to campus, and it's a <span class="emphasize">hurdle</span> for me to find <span class="emphasize">where</span> meetings take place."</p>
+        <p class="existing-hurdles">"I went to a club event, but it turned out <span class="emphasize">really differently</span> from what I anticipated."</p>
+      </div>
+      <a href="#scr-6">
+        <h5 class="statement scroll-down">▽</h5>
+      </a>
     </div>
     <div id="scr-6" class="white-background">
-      <div id="carousel-title">
-        <h3 class="title-children">How It Works</h3>
+      <div class="carousel-title">
         <img class="title-children" id="how-it-works" src="resources/images/how-it-works.png">
+        <h3 class="title-children emphasize">How It Works</h3>
       </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->
@@ -92,29 +98,49 @@
         <!-- Left and right controls -->
         <a class="left carousel-control" id="carousel-control-left" href="#myCarousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" id="carousel-control-right" href="#myCarousel" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
         </a>
       </div>
+      <a href="#scr-7">
+        <h5 class="statement scroll-down">▽</h5>
+      </a>
     </div>
     <div id="scr-7" class="yellow-background">
-      <div class="container">
-        <h3>WHY IT WORKS</h3>
-        <img id="why-it-works" src="resources/images/why-it-works.png">
+      <div class="flex-parent">
+        <div class="flex-child" id="why-section">
+          <div class="carousel-title">
+            <img class="title-children" id="why-it-works" src="resources/images/why-it-works.png">
+            <h3 class="title-children emphasize">Why It Works</h3>
+          </div>
+          <ul class="bullet-section">
+            <li class="bullet-points">Every CMU students uses SIO and Canvas already.</li>
+            <li class="bullet-points">Pushes reminders at the right time.</li>
+            <li class="bullet-points">Prioritizes two important pieces of information, timing and events, that influence club membership.</li>
+            <li class="bullet-points">Displays an overview of all club schedules at once, so students don’t have to make uninformed tradeoffs.</li>
+          </ul>
+        </div>
+        <div class="flex-child" id="feasibility-section">
+          <div class="carousel-title">
+            <img class="title-children" id="feasibility" src="resources/images/feasibility.png">
+            <h3 class="title-children emphasize">Feasibility</h3>
+          </div>
+          <ul>
+            <li class="bullet-points">Can plug into existing Bridge content.</li>
+            <li class="bullet-points">Easy for people to export and import calendar data of their own choosing.</li>
+            <li class="bullet-points">Requires minimal technical modification to Canvas/SIO.</li>
+          </ul>
+        </div>
       </div>
-      <div class="container">
-        <h3>FEASIBILITY</h3>
-        <img src="resouerces/images/feasibility.png">
-      </div>
-
+      <a href="#scr-8">
+        <h5 class="statement scroll-down">▽</h5>
+      </a>
     </div>
     <div id="scr-8" class="dark-blue-background">
       <div class="persona-description">
         <img class="persona" src="resources/images/persona-happy.png">
-        <ul>
+        <ul class="bullet-section">
           <li class="statement">THIS IS JOHN.</li>
           <li class="statement">HE IS A FRESHMAN.</li>
           <li class="statement">HE HAS JOINED GREAT CLUBS.</li>

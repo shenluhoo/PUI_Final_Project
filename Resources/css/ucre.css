@@ -141,6 +141,17 @@ img.zoom{
   display: table-cell;
   vertical-align: middle;
 }
+/*scr-5*/
+.container{
+  display: flex;
+}
+.existing-hurdles{
+  vertical-align: middle;
+  text-align:center;
+  margin: 1.8vw;
+  margin-top: 20vh;
+  font-size: 1.3vw;
+}
 /*scr-6*/
 #carousel-control-right,
 #carousel-control-left{
@@ -150,19 +161,53 @@ img.zoom{
   display: inline-block;
   vertical-align: middle;
   width: 50vw;
-  margin: 5vw;
+  margin: 3vw;
   margin-left: 25vw;
 }
-#carousel-title{
+.carousel-title{
   display: table-cell;
+  padding-left: 10vw;
+  padding-top: 3vw;
 }
 .title-children{
   display: inline-block;
   vertical-align: middle;
 }
+.carousel-inner{
+  padding-bottom: 0;
+}
 h3.title-children{
   margin: 0;
+  font-size: 1.5vw;
 }
-#how-it-works{
+#existing-hurdles{
+  max-height: 12%;
+}
+#how-it-works,
+#why-it-works,
+#feasibility{
   max-height: 10%;
+}
+h5.scroll-down{
+  font-size: 1.5vw;
+}
+#scr-6 h5{
+  margin-top: 0;
+}
+/*scr-7*/
+.flex-parent{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-child{
+  flex-basis: 0;
+  flex: 1 1 0;
+}
+li.bullet-points{
+  font-size: 1.3vw;
+  text-align: left;
+  margin-top: 2vw;
+  max-width: 50%;
+  margin-left: 20%;
+  list-style-type: circle;
 }
