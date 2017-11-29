@@ -138,7 +138,6 @@ treeJSON = d3.json("https://raw.githubusercontent.com/shenluhoo/PUI_Final_Projec
         .attr("class", "overlay")
         .call(zoomListener);
 
-
     // Define the drag listeners for drag/drop behaviour of nodes.
     dragListener = d3.behavior.drag()
         .on("dragstart", function(d) {

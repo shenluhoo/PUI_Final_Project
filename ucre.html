@@ -4,10 +4,6 @@
     <meta charset="utf-8">
     <title>UCRE - Student Activities Research</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Stylesheet link-->
-    <link rel="stylesheet" type="text/css" href="resources/css/ucre.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/affinity.css">
-    <link rel="stylesheet" href="resources/css/magnify.css">
     <!--scroll reveal library -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- jQuery -->
@@ -21,28 +17,48 @@
     <script src="resources/script/jquery.magnify.js"></script>
     <script src="resources/script/dndTree.js"></script>
     <script src="resources/script/ucre.js"></script>
+    <!-- Stylesheet link-->
+    <link rel="stylesheet" type="text/css" href="resources/css/ucre.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/affinity.css">
+    <link rel="stylesheet" href="resources/css/magnify.css">
   </head>
   <body>
+    <a href="#scr-1">
+      <button id="myBtn" title="Go to top">Top</button>
+    </a>
     <div id="scr-1" class="yellow-background">
-      <img class="persona" src="resources/images/persona-confused.png">
-      <div>
-        <h2 class="statement" id="st-1">THIS IS JOHN.</h2>
-        <h2 class="statement" id="st-2">HE IS A FRESHMAN.</h2>
-        <h2 class="statement" id="st-3">HE IS LOOKING FOR CLUBS.</h2>
-        <h2 class="statement" id="st-4">HE IS VERY CONFUSED.</h2>
+      <div class="persona-description">
+        <img class="persona" src="resources/images/persona-confused.png">
+        <ul>
+          <li class="statement">THIS IS JOHN.</li>
+          <li class="statement">HE IS A FRESHMAN.</li>
+          <li class="statement">HE IS LOOKING FOR CLUBS.</li>
+          <li class="statement emphasize">HE IS VERY CONFUSED.</li>
+        </ul>
       </div>
-      <h1 class="statement">"THE ONLY PLACE I GET CLUB INFO IS AT THE ACTIVITIES FAIR."</h1>
-      <h5>"EXPERIENCE WHAT JOHN NEEDS TO GO THROUGH"</h5>
+      <h1 class="statement emphasize">"THE ONLY PLACE I GET CLUB INFO IS AT THE ACTIVITIES FAIR."</h1>
+      <a href="#scr-2">
+        <h5 class="statement">EXPERIENCE WHAT JOHN NEEDS TO GO THROUGH</h5>
+      </a>
     </div>
     <div id="scr-2" class="white-background">
       <img src="resources/images/sequence.jpg" class="zoom" data-magnify-src="resources/images/sequence-large.jpg">
+      <a href="#scr-3">
+        <h5 class="statement">▽</h5>
+      </a>
     </div>
     </script>
     <div id="scr-3" class="light-blue-background">
-      <img class="persona" src="resources/images/persona-confused.png">
-      <h4 class="statement">JOHN IS JUST ONE OF THE MANY CARNEGIE MELLON STUDENTS
-                            WHO FACE PROBLEMS JOINING CLUBS. EXPLORE WHAT OTHERS HAVE
-                            TO SAY ABOUT IT.</h4>
+      <div class="persona-description">
+        <img class="persona" src="resources/images/persona-confused.png">
+        <ul>
+          <li class="statement">JOHN IS JUST ONE OF THE MANY CARNEGIE MELLON STUDENTS
+                                WHO FACE PROBLEMS JOINING CLUBS.</li>
+        </ul>
+      </div>
+      <a href="#scr-4">
+        <h5 class="statement">EXPLORE WHAT OTHERS HAVE TO SAY ABOUT IT.</h5>
+      </a>
     </div>
     <div id="scr-4" class="dark-blue-background">
       <div id="tree-container">
@@ -57,16 +73,10 @@
     </div>
     <div id="scr-6" class="white-background">
       <div id="carousel-title">
-        <h3>How It Works</h3>
-        <img src="resources/images/how-it-works.png">
+        <h3 class="title-children">How It Works</h3>
+        <img class="title-children" id="how-it-works" src="resources/images/how-it-works.png">
       </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
@@ -92,21 +102,26 @@
     </div>
     <div id="scr-7" class="yellow-background">
       <div class="container">
-        <img src="resources/images/why-it-works.png">
+        <h3>WHY IT WORKS</h3>
+        <img id="why-it-works" src="resources/images/why-it-works.png">
       </div>
       <div class="container">
+        <h3>FEASIBILITY</h3>
         <img src="resouerces/images/feasibility.png">
       </div>
 
     </div>
     <div id="scr-8" class="dark-blue-background">
-      <img class="persona" src="resources/images/persona-happy.png">
-      <div>
-        <h2 class="statement" id="st-5">THIS IS JOHN.</h2>
-        <h2 class="statement" id="st-6">HE IS A FRESHMAN.</h2>
-        <h2 class="statement" id="st-7">HE HAS JOINED GREAT CLUBS.</h2>
-        <h2 class="statement" id="st-8">HE IS HAVING SO MUCH FUN.</h2>
+      <div class="persona-description">
+        <img class="persona" src="resources/images/persona-happy.png">
+        <ul>
+          <li class="statement">THIS IS JOHN.</li>
+          <li class="statement">HE IS A FRESHMAN.</li>
+          <li class="statement">HE HAS JOINED GREAT CLUBS.</li>
+          <li class="statement emphasize">HE IS HAVING SO MUCH FUN.</li>
+        </ul>
       </div>
+      <h1 class="statement emphasize">"I LOVE KNOWING THAT I CAN PLAN WHAT MATTERS MOST TO ME."</h1>
     </div>
   </body>
 </html>
